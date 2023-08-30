@@ -35,3 +35,7 @@ The Fear and Greed Index Dashboard is a web application that allows users to vis
 - Requests library
 - Alternative.me API
 
+# Get Involved
+I welcome anyone who's interested in contributing to our GitHub repository. Your contributions are highly valued and appreciated. Feel free to join me!
+
+
