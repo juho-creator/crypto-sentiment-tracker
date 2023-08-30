@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fear and Greed Index</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lastest Fear and Greed Index</h1>
+    <form action="/" method="post">
+        <input type="number" name="number" placeholder="Enter limit" value="{{ request.form.number }}">
+        <input type="submit" value="Get Fear & Greed Data">
+    </form>
+    {% if data %}
+    <br>
+    <h3>Average Fear/Greed Index: {{ average }}</h3>
+    {% endif %}
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Fear/Greed Index</th>
+            <th>Value</th>
+        </tr>
+        {% for entry in data %}
+        <tr>
+            <td>{{ entry.date }}</td>
+            <td>{{ entry.value_classification }}</td>
+            <td>{{ entry.value }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+
+</body>
+</html>
