@@ -16,11 +16,13 @@ The Fear and Greed Index Dashboard is a web application that allows users to vis
 - Responsive design for optimal viewing on different devices.
 
 ## How to Use
+### For users
 
-1. Clone the repository: `git clone https://github.com/yourusername/fear-greed-index-dashboard.git`
+### For developers
+1. Clone the repository: `git clone https://github.com/juho-creator/crypto-sentiment-tracker.git`
 2. Navigate to the project directory: `cd fear-greed-index-dashboard`
 3. Install dependencies: `pip install -r requirements.txt`
-4. Run the Flask app: `python app.py`
+4. Run the Flask app: `python -m flask run`
 5. Open a web browser and go to `http://localhost:5000`
 6. Enter the desired number of days and click "Get Fear & Greed Data" to see the data and average.
 
@@ -34,11 +36,3 @@ The Fear and Greed Index Dashboard is a web application that allows users to vis
 - Requests library
 - Alternative.me API
 
-## Contributors
-
-- Your Name
-- Your Email
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
