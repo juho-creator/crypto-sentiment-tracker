@@ -20,11 +20,10 @@ The Fear and Greed Index Dashboard is a web application that allows users to vis
 
 ### For developers
 1. Clone the repository: `git clone https://github.com/juho-creator/crypto-sentiment-tracker.git`
-2. Navigate to the project directory: `cd fear-greed-index-dashboard`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the Flask app: `python -m flask run`
-5. Open a web browser and go to `http://localhost:5000`
-6. Enter the desired number of days and click "Get Fear & Greed Data" to see the data and average.
+2. Navigate to the project directory: `cd crypto-sentiment-tracker\library`
+3. Run the Flask app: `python -m flask run`
+4. Open a web browser and go to `http://localhost:5000`
+5. Enter the desired number of days and click "Get Fear & Greed Data" to see the data and average.
 
 ## Technologies Used
 
