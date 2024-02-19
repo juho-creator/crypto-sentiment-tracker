@@ -5,7 +5,6 @@
 ![화면 캡처 2024-02-19 204815](https://github.com/juho-creator/crypto-sentiment-tracker/assets/72856990/fc5bdcc4-e6f1-4149-bbf5-75798b08694e)
 
 
-</>
 
 ## Description
 
